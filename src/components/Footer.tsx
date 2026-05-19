@@ -11,7 +11,7 @@ export default function Footer() {
           </p>
         </div>
 
-        <div className="flex gap-5 text-sm text-slate-400">
+        <div className="flex flex-wrap gap-5 text-sm text-slate-400">
           <a href={siteConfig.github} className="hover:text-white">
             GitHub
           </a>
@@ -20,6 +20,9 @@ export default function Footer() {
           </a>
           <a href={`mailto:${siteConfig.email}`} className="hover:text-white">
             Email
+          </a>
+          <a href={siteConfig.domain} className="hover:text-white">
+            MorCode Labs
           </a>
         </div>
 

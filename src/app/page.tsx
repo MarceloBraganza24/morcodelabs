@@ -5,6 +5,7 @@ import Hero from "@/components/Hero";
 import Navbar from "@/components/Navbar";
 import Process from "@/components/Process";
 import Projects from "@/components/Projects";
+import SelectedWork from "@/components/SelectedWork";
 import Services from "@/components/Services";
 import TechStack from "@/components/TechStack";
 
@@ -15,6 +16,7 @@ export default function Home() {
       <Hero />
       <Services />
       <TechStack />
+      <SelectedWork />
       <Projects />
       <Process />
       <About />
