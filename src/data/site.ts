@@ -5,7 +5,7 @@ export const siteConfig = {
     "Desarrollador Full Stack MERN especializado en Next.js, TypeScript, MongoDB y productos SaaS modernos. Desarrollo landing pages, sistemas web, ecommerce, marketplaces y plataformas escalables para negocios reales.",
   email: "morcodelabs@morcodelabs.com",
   whatsapp: "https://wa.me/5492926459172",
-  github: "https://github.com/MarceloBraganza24",
+  github: "https://github.com//* MarceloBraganza24 */",
   linkedin: "https://www.linkedin.com/in/marcelo-adrián-braganza-907202249",
   domain: "https://morcodelabs.com",
 };
@@ -68,9 +68,9 @@ export const selectedWork = [
     status: "En producción",
     category: "E-commerce inteligente orientado a conversión",
     images: [
-      "/projects/ordena-todo-1.png",
-      "/projects/ordena-todo-2.png",
-      "/projects/ordena-todo-3.png",
+      "/projects/ordena-todo-1-v2.png",
+      "/projects/ordena-todo-2-v2.png",
+      "/projects/ordena-todo-3-v2.png",
     ],
     url: "https://ordenatodoensulugar.com.ar",
     description:
@@ -97,7 +97,7 @@ export const selectedWork = [
     ],
   },
   {
-    title: "Sistema de turnos y gestión multi-profesional",
+    title: "Central Turnos",
     status: "Private SaaS build",
     category: "SaaS de gestión multi-rol",
     images: [
@@ -129,7 +129,7 @@ export const selectedWork = [
     ],
   },
   {
-    title: "Reservas de inmuebles",
+    title: "Alquileres Temporarios SaaS",
     status: "Under active development",
     category: "Marketplace tipo Airbnb",
     images: [
