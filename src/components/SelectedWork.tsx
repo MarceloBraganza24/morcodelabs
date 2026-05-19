@@ -14,12 +14,15 @@ export default function SelectedWork() {
             <p className="mb-4 text-sm font-semibold uppercase tracking-[0.3em] text-cyan-300">
               Selected Work
             </p>
+
             <h2 className="text-4xl font-semibold tracking-[-0.04em] text-white md:text-6xl">
               Proyectos que muestran producto, diseño y ejecución.
             </h2>
+
             <p className="mt-6 text-lg leading-8 text-slate-400">
-              Capturas reales de productos, sistemas y plataformas que muestran
-              funcionalidades, pantallas internas y experiencia de usuario.
+              Sistemas, plataformas SaaS y productos digitales desarrollados con
+              foco en arquitectura, experiencia de usuario, performance y
+              escalabilidad.
             </p>
           </div>
         </SectionReveal>
@@ -66,6 +69,7 @@ export default function SelectedWork() {
                                 sizes="(max-width: 768px) 100vw, 20vw"
                                 className="object-cover object-top transition duration-500 hover:scale-105"
                               />
+
                               <div className="absolute inset-0 bg-linear-to-t from-slate-950/40 to-transparent opacity-70" />
                             </div>
                           ))}
@@ -95,8 +99,12 @@ export default function SelectedWork() {
                         {project.title}
                       </h3>
 
-                      <p className="mt-5 leading-8 text-slate-400">
+                      <p className="mt-5 leading-8 text-slate-300">
                         {project.description}
+                      </p>
+
+                      <p className="mt-4 leading-8 text-slate-500">
+                        {project.longDescription}
                       </p>
 
                       <div className="mt-7 grid gap-3 sm:grid-cols-3">
@@ -116,7 +124,7 @@ export default function SelectedWork() {
                             key={feature}
                             className="flex items-center gap-3 text-sm text-slate-300"
                           >
-                            <CheckCircle2 size={17} className="text-cyan-300" />
+                            <CheckCircle2 size={17} className="shrink-0 text-cyan-300" />
                             {feature}
                           </div>
                         ))}

@@ -34,6 +34,13 @@ export default function About() {
               TypeScript y arquitecturas modernas orientadas a productos
               escalables y sistemas web complejos.
             </p>
+
+            <p className="mt-5 text-lg leading-8 text-slate-400">
+              Además del desarrollo frontend y backend, también trabajo con
+              despliegues, infraestructura cloud y gestión de dominios,
+              utilizando herramientas como Google Cloud Platform, Cloud Run,
+              AWS y Vercel para proyectos orientados a producción real.
+            </p>
           </div>
         </SectionReveal>
 
@@ -81,7 +88,7 @@ export default function About() {
 
               <div className="border-t border-white/10 pt-8">
                 <p className="mb-5 text-sm uppercase tracking-[0.2em] text-purple-300">
-                  Stack principal
+                  Tecnologías
                 </p>
 
                 <div className="flex flex-wrap gap-3">
@@ -94,8 +101,9 @@ export default function About() {
                     "Express",
                     "Tailwind CSS",
                     "Auth.js",
-                    "Vercel",
+                    "Mongoose",
                     "Mercado Pago",
+                    "Stripe",
                   ].map((tech) => (
                     <span
                       key={tech}
@@ -104,6 +112,31 @@ export default function About() {
                       {tech}
                     </span>
                   ))}
+                </div>
+
+                <div className="mt-10">
+                  <p className="mb-5 text-sm uppercase tracking-[0.2em] text-cyan-300">
+                    Infraestructura & Deploy
+                  </p>
+
+                  <div className="flex flex-wrap gap-3">
+                    {[
+                      "Google Cloud Platform",
+                      "Cloud Run",
+                      "AWS",
+                      "Vercel",
+                      "Domain & Hosting Management",
+                      "Production Deployments",
+                      "Cloud Infrastructure",
+                    ].map((tech) => (
+                      <span
+                        key={tech}
+                        className="rounded-full border border-white/10 bg-white/3 px-4 py-2 text-sm text-slate-300"
+                      >
+                        {tech}
+                      </span>
+                    ))}
+                  </div>
                 </div>
               </div>
             </div>

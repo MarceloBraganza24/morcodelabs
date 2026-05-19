@@ -3,10 +3,10 @@ export const siteConfig = {
   tagline: "Software moderno para negocios que quieren crecer.",
   description:
     "Desarrollador Full Stack MERN especializado en Next.js, TypeScript, MongoDB y productos SaaS modernos. Desarrollo landing pages, sistemas web, ecommerce, marketplaces y plataformas escalables para negocios reales.",
-  email: "contacto@morcodelabs.com",
-  whatsapp: "https://wa.me/5490000000000",
-  github: "https://github.com/tuusuario",
-  linkedin: "https://linkedin.com/in/tuusuario",
+  email: "morcodelabs@morcodelabs.com",
+  whatsapp: "https://wa.me/5492926459172",
+  github: "https://github.com/MarceloBraganza24",
+  linkedin: "https://www.linkedin.com/in/marcelo-adrián-braganza-907202249",
   domain: "https://morcodelabs.com",
 };
 
@@ -37,9 +37,9 @@ export const services = [
       "Integraciones con WhatsApp, emails transaccionales, APIs externas y procesos automáticos para ahorrar tiempo.",
   },
   {
-    title: "Deploy & performance",
+    title: "Cloud infrastructure & deployments",
     description:
-      "Despliegue en Vercel, optimización SEO, velocidad, responsive design y buenas prácticas de producción.",
+      "Deploys modernos en Vercel y Google Cloud Platform, manejo de dominios, hosting, infraestructura cloud y optimización de performance para aplicaciones orientadas a producción.",
   },
 ];
 
@@ -55,15 +55,18 @@ export const techStack = [
   "Auth.js",
   "Mercado Pago",
   "Stripe",
-  "Cloudinary",
+  "Google Cloud Platform",
+  "Cloud Run",
+  "AWS",
   "Vercel",
+  "Domain & Hosting Management",
 ];
 
 export const selectedWork = [
   {
-    title: "Ordena Todo en su Lugar",
+    title: "ORDENA",
     status: "En producción",
-    category: "Ecommerce / landing comercial",
+    category: "E-commerce inteligente orientado a conversión",
     images: [
       "/projects/ordena-todo-1.png",
       "/projects/ordena-todo-2.png",
@@ -71,41 +74,32 @@ export const selectedWork = [
     ],
     url: "https://ordenatodoensulugar.com.ar",
     description:
-      "Web comercial en producción, desarrollada para presentar servicios, mejorar la presencia digital y convertir visitantes en potenciales clientes.",
-    metrics: ["Producción real", "Responsive", "Deploy en Vercel"],
+      "Plataforma de e-commerce moderna enfocada en venta online, automatización de procesos y optimización de conversión, desarrollada bajo una arquitectura escalable y preparada para operar en producción real.",
+    longDescription:
+      "El sistema ofrece una experiencia de compra rápida, intuitiva y optimizada para mobile y desktop. Incluye carrito avanzado, checkout multi-step, integración con Mercado Pago, cálculo automático de envíos mediante Correo Argentino, sistema de órdenes robusto, emails transaccionales y tracking completo de campañas mediante Meta Pixel + Conversions API. Además, incorpora herramientas enfocadas en aumentar conversión y ticket promedio, como barra de envío gratis, upsells inteligentes, atribución por UTMs, analytics propios y sistemas de fallback para garantizar estabilidad operativa incluso ante fallos externos.",
+    metrics: ["Producción real", "Checkout avanzado", "Tracking & analytics"],
     features: [
-      "Landing comercial",
-      "Diseño responsive",
-      "Secciones orientadas a conversión",
-      "Optimización visual para negocio real",
+      "Carrito avanzado y checkout multi-step",
+      "Mercado Pago + Correo Argentino",
+      "Emails transaccionales con Resend",
+      "Meta Pixel + Conversions API",
+      "Upsells, UTMs y analytics propios",
     ],
-    tags: ["Web comercial", "Responsive", "Vercel"],
+    tags: [
+      "Next.js App Router",
+      "TypeScript",
+      "MongoDB Atlas",
+      "Mongoose",
+      "Zod",
+      "Mercado Pago",
+      "Resend",
+      "Meta CAPI",
+    ],
   },
   {
-    title: "AI Product Research Assistant",
-    status: "Listo para deploy",
-    category: "SaaS con inteligencia artificial",
-    images: [
-      "/projects/ai-research-1.png",
-      "/projects/ai-research-2.png",
-      "/projects/ai-research-3.png",
-    ],
-    url: "",
-    description:
-      "Producto SaaS orientado a investigación de productos con IA, suscripciones, pagos integrados y flujo completo listo para producción.",
-    metrics: ["SaaS", "Pagos", "IA"],
-    features: [
-      "Sistema de suscripción",
-      "Flujo de pagos",
-      "Autenticación",
-      "Producto probado para producción",
-    ],
-    tags: ["SaaS", "AI", "Stripe", "Subscriptions"],
-  },
-  {
-    title: "Sistema de turnos multi-profesional",
-    status: "En desarrollo",
-    category: "SaaS de gestión",
+    title: "Sistema de turnos y gestión multi-profesional",
+    status: "Private SaaS build",
+    category: "SaaS de gestión multi-rol",
     images: [
       "/projects/turnos-saas-1.png",
       "/projects/turnos-saas-2.png",
@@ -113,19 +107,30 @@ export const selectedWork = [
     ],
     url: "",
     description:
-      "Plataforma para profesionales, categorías, ciudades, disponibilidad, reservas, clientes y paneles administrativos por rol.",
-    metrics: ["Multi rol", "Turnos", "Dashboard"],
+      "Plataforma SaaS orientada a la gestión de profesionales, categorías y reservas online, pensada para centralizar turnos, disponibilidad y administración desde un único sistema escalable.",
+    longDescription:
+      "El proyecto está diseñado bajo una arquitectura multi-rol, permitiendo diferentes niveles de acceso para super administradores, profesionales y clientes. Incluye gestión de categorías, disponibilidad horaria, reservas, paneles administrativos, perfiles profesionales y organización por ciudades o rubros. La plataforma fue planteada para automatizar procesos de gestión, reducir fricción en la reserva de turnos y ofrecer una experiencia premium tanto para usuarios finales como para profesionales.",
+    metrics: ["Multi-rol", "Reservas online", "Dashboard admin"],
     features: [
-      "Panel super admin",
-      "Panel profesional",
-      "Gestión de disponibilidad",
-      "Reservas por ciudad y categoría",
+      "Gestión de profesionales y categorías",
+      "Disponibilidad horaria dinámica",
+      "Paneles personalizados por rol",
+      "Estados de reservas y clientes",
+      "Preparado para WhatsApp y Google Calendar",
     ],
-    tags: ["Next.js", "MongoDB", "Auth.js", "Dashboard"],
+    tags: [
+      "Next.js",
+      "TypeScript",
+      "MongoDB",
+      "Auth.js",
+      "Tailwind CSS",
+      "SaaS",
+      "Multi-tenant",
+    ],
   },
   {
     title: "Reservas de inmuebles",
-    status: "En desarrollo",
+    status: "Under active development",
     category: "Marketplace tipo Airbnb",
     images: [
       "/projects/reservas-inmuebles-1.png",
@@ -134,19 +139,30 @@ export const selectedWork = [
     ],
     url: "",
     description:
-      "Marketplace para alquileres temporarios, con propietarios, huéspedes, reservas, pagos, disponibilidad y administración de propiedades.",
-    metrics: ["Marketplace", "Reservas", "Pagos"],
+      "Plataforma web tipo marketplace orientada a la gestión de alquileres temporarios, reservas y administración de propiedades desde un entorno moderno y escalable.",
+    longDescription:
+      "El sistema permite que propietarios administren propiedades, disponibilidad, precios y reservas desde dashboards personalizados, mientras que los huéspedes pueden explorar alojamientos, consultar disponibilidad y gestionar reservas de forma intuitiva. La arquitectura fue diseñada pensando en múltiples roles, escalabilidad y automatización de procesos relacionados a reservas, pagos y comunicación entre usuarios.",
+    metrics: ["Marketplace", "Reservas dinámicas", "Pagos integrados"],
     features: [
-      "Panel de propietarios",
-      "Reservas con disponibilidad",
+      "Panel de propietarios y huéspedes",
+      "Gestión de propiedades y disponibilidad",
+      "Bloqueo de fechas y precios dinámicos",
       "Pagos con Mercado Pago",
-      "Chat entre huésped y propietario",
+      "Mensajería integrada y favoritos",
     ],
-    tags: ["Marketplace", "Mercado Pago", "Reservas"],
+    tags: [
+      "Next.js",
+      "TypeScript",
+      "MongoDB",
+      "Auth.js",
+      "Mercado Pago",
+      "Tailwind CSS",
+      "Marketplace",
+    ],
   },
   {
     title: "Marketplace de ropa y calzado usado",
-    status: "En desarrollo",
+    status: "Concept product",
     category: "Marketplace circular",
     images: [
       "/projects/pilchamarket-1.png",
@@ -155,15 +171,58 @@ export const selectedWork = [
     ],
     url: "",
     description:
-      "Plataforma para compra y venta de ropa/calzado usado, con publicaciones, pagos, disputas, antifraude, onboarding y métricas.",
-    metrics: ["Marketplace", "Antifraude", "Analytics"],
+      "Marketplace moderno orientado a la compra y venta de ropa y calzado usado, pensado para escalar desde una plataforma simple de publicaciones hasta un ecosistema completo de comercio circular.",
+    longDescription:
+      "El sistema contempla onboarding guiado, publicaciones, favoritos, filtros dinámicos, búsqueda avanzada, paneles administrativos, métricas, disputas, protección antifraude y gestión de pagos. El enfoque principal es combinar una experiencia de usuario moderna con herramientas de administración robustas, permitiendo que vendedores y compradores operen dentro de una plataforma visualmente atractiva, rápida y preparada para crecimiento real.",
+    metrics: ["Social commerce", "Antifraude", "Analytics"],
     features: [
-      "Publicaciones de productos",
+      "Publicaciones con filtros dinámicos",
+      "Favoritos y búsqueda avanzada",
+      "Pagos integrados",
       "Sistema de disputas",
-      "Onboarding guiado",
-      "Métricas avanzadas",
+      "Onboarding, métricas y antifraude",
     ],
-    tags: ["Marketplace", "Pagos", "Disputas", "Analytics"],
+    tags: [
+      "Next.js",
+      "TypeScript",
+      "MongoDB",
+      "Auth.js",
+      "Mercado Pago",
+      "Analytics",
+      "Marketplace",
+    ],
+  },
+  {
+    title: "AI Product Research Assistant",
+    status: "Production-ready",
+    category: "AI SaaS product",
+    images: [
+      "/projects/ai-research-1.png",
+      "/projects/ai-research-2.png",
+      "/projects/ai-research-3.png",
+    ],
+    url: "",
+    description:
+      "Producto SaaS enfocado en investigación y análisis de productos asistido por inteligencia artificial, diseñado para automatizar procesos de búsqueda, evaluación y exploración de oportunidades comerciales.",
+    longDescription:
+      "La plataforma fue desarrollada con foco en experiencia de usuario moderna, arquitectura escalable y monetización mediante suscripciones. Incluye autenticación, sistema de pagos, lógica de suscripciones, dashboards internos y flujos preparados para producción. El objetivo del producto es asistir usuarios en procesos de investigación de productos mediante herramientas impulsadas por IA, centralizando información relevante dentro de una interfaz rápida, moderna y preparada para escalar.",
+    metrics: ["AI-powered", "Subscriptions", "Deploy-ready"],
+    features: [
+      "Investigación asistida por IA",
+      "Sistema de suscripciones",
+      "Pagos con Stripe",
+      "Control de acceso por plan",
+      "Dashboard SaaS preparado para producción",
+    ],
+    tags: [
+      "Next.js",
+      "TypeScript",
+      "MongoDB",
+      "Stripe",
+      "Auth.js",
+      "Tailwind CSS",
+      "AI SaaS",
+    ],
   },
 ];
 
