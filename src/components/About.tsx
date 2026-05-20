@@ -80,7 +80,7 @@ export default function About() {
                     </p>
 
                     <p className="mt-2 text-sm text-slate-400">
-                      UTN · Finalizado en 2022
+                      UTN · Finalizado en 2023
                     </p>
                   </div>
                 </div>
